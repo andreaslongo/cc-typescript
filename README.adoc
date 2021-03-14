@@ -1,0 +1,25 @@
+= TypeScript Project Template
+
+Use this template to bootstrap new TypeScript projects fast and unified.
+
+To create a new project, install and run https://github.com/cookiecutter/cookiecutter[Cookiecutter]
+
+[source,console]
+----
+$ cookiecutter https://github.com/andreaslongo/cc-typescript.git
+----
+
+Or install and use https://github.com/pipxproject/pipx[pipx] (recommended)
+
+[source,console]
+----
+$ pipx run cookiecutter https://github.com/andreaslongo/cc-typescript.git
+----
+
+
+== Features
+
+- https://www.gnu.org/software/make/[GNU Make] for automation
+- https://github.com/pre-commit/pre-commit[pre-commit] for Git hooks
+- https://www.npmjs.com/[Node package manager] for dependency managment
+- https://jestjs.io/[Jest] for unit tests

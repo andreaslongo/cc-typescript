@@ -1,0 +1,18 @@
+= {{cookiecutter.project_name}}
+
+== Contributing
+
+Clone repository
+
+[source,console]
+----
+$ git clone {{cookiecutter.github_repository}}
+$ cd {{cookiecutter.project_repository}}
+----
+
+Initialize project for development (requires `pre-commit`)
+
+[source,console]
+----
+$ make init
+----

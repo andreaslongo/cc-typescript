@@ -1,0 +1,11 @@
+{
+  "github_user": "andreaslongo",
+  "project_name": "TypeScript Project",
+
+  "git_init": ["yes", "no"],
+  "git_hooks": ["yes", "no"],
+
+  "project_repository": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "github_repository": "git@github.com:{{ cookiecutter.github_user }}/{{ cookiecutter.project_repository }}.git",
+  "project_slug": "{{ cookiecutter.project_repository.replace('-', '_') }}"
+}
